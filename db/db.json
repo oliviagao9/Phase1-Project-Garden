@@ -1,0 +1,10 @@
+{
+    "plants": [
+      {
+        "id": 1,
+        "name": "Mini Faux",
+        "image": "./images/mini_faux.jpg"
+      }
+
+    ]
+  }
