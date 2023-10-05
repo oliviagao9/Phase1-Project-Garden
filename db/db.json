@@ -3,8 +3,12 @@
       {
         "id": 1,
         "name": "Mini Faux",
-        "image": "./images/mini_faux.jpg"
+        "image": "public/images/mini_faux.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Moon Stone",
+        "image": "public/images/moonstone.jpg"
       }
-
     ]
   }
