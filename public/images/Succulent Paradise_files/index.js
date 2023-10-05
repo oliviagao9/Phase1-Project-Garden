@@ -13,7 +13,7 @@ function renderPlant(plant) {
     let img = document.createElement('img');
     img.src = plant.image;
     card.appendChild(img);
-    card.innerHTML = card.innerHTML + `<div class="container"> <h3>${plant.name}</h3></div>`;
+    card.innerHTML = card.innerHTML + plant.name;
 
     console.log(card);
     
