@@ -9,6 +9,11 @@
         "id": 2,
         "name": "Moon Stone",
         "image": "public/images/moonstone.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Echeveria Elegans",
+        "image": "public/images/echeveria_elegans.jpeg"
       }
     ]
   }
