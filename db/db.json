@@ -2,18 +2,21 @@
     "plants": [
       {
         "id": 1,
-        "name": "Mini Faux",
-        "image": "public/images/mini_faux.jpg"
+        "name": "Haworthia",
+        "image": "public/images/haworthia.jpg",
+        "sunlight": "Partial sun to partial shade"
       },
       {
         "id": 2,
         "name": "Moon Stone",
-        "image": "public/images/moonstone.jpg"
+        "image": "public/images/moonstone.jpg",
+        "sunlight": "Partial sun to partial shade"
       },
       {
         "id": 3,
         "name": "Echeveria Elegans",
-        "image": "public/images/echeveria_elegans.jpeg"
+        "image": "public/images/echeveria_elegans.jpeg",
+        "sunlight": "Full sun to partial shade"
       }
     ]
   }
