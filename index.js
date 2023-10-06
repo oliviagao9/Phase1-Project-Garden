@@ -19,3 +19,12 @@ function renderPlant(plant) {
     
     document.getElementById('cards').appendChild(card);
 };
+
+function addPlantFormSubmitListener() {
+    const plantForm = document.getElementById("plant-form");
+
+    plantForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        plantForm.reset();
+    })
+}
