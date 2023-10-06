@@ -1,4 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => displayPlants())
+document.addEventListener("DOMContentLoaded", () => {
+
+displayPlants()
+addPlantFormSubmitListener()
+
+})
 
 function displayPlants() {
     fetch('http://localhost:3000/plants')
@@ -13,9 +18,10 @@ function renderPlant(plant) {
     let img = document.createElement('img');
     img.src = plant.image;
     card.appendChild(img);
-    card.innerHTML = card.innerHTML + `<div class="container"> <h3>${plant.name}</h3> <h4>☀️${plant.sunlight}</h4></div>`;
-
-    console.log(card);
+    card.innerHTML = card.innerHTML + 
+    `<div class="container"> 
+     <h3>${plant.name}</h3> 
+     <h4>☀️${plant.sunlight}</h4></div>`;
     
     document.getElementById('cards').appendChild(card);
 };
@@ -25,6 +31,29 @@ function addPlantFormSubmitListener() {
 
     plantForm.addEventListener("submit", (e) => {
         e.preventDefault();
-        plantForm.reset();
+        addNewPlant();
     })
+}
+
+function addNewPlant() {
+    const newName = document.getElementById("new-name").value;
+    const newImage = document.getElementById("new-image").value;
+    const newSunlight = document.getElementById("new-sunlight").value;
+
+    const newPlant = {
+        "name": newName,
+        "image": newImage,
+        "sunlight": newSunlight
+    }
+
+    fetch("http://localhost:3000/plants", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newPlant)
+    })
+
+
+    renderPlant(newPlant);
 }
