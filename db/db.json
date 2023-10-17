@@ -1,22 +1,35 @@
 {
-    "plants": [
-      {
-        "id": 1,
-        "name": "Haworthia",
-        "image": "public/images/haworthia.jpg",
-        "sunlight": "Partial sun to partial shade"
-      },
-      {
-        "id": 2,
-        "name": "Moon Stone",
-        "image": "public/images/moonstone.jpg",
-        "sunlight": "Partial sun to partial shade"
-      },
-      {
-        "id": 3,
-        "name": "Echeveria Elegans",
-        "image": "public/images/echeveria_elegans.jpeg",
-        "sunlight": "Full sun to partial shade"
-      }
-    ]
-  }
+  "plants": [
+    {
+      "name": "Haworthia",
+      "image": "public/images/haworthia.jpg",
+      "sunlight": "Partial sun to partial shade",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Moon Stone",
+      "image": "public/images/moonstone.jpg",
+      "sunlight": "Partial sun to partial shade",
+      "id": 2
+    },
+    {
+      "name": "Sedum Donkey's Tail",
+      "image": "public/images/sedum_donkeys_tail.jpg",
+      "sunlight": "Partial sun to partial shade",
+      "id": 3
+    },
+    {
+      "name": "Crassula Baby Necklace",
+      "image": "public/images/crassula_baby_necklace.jpg",
+      "sunlight": "Full sun to partial shade",
+      "id": 4
+    },
+    {
+      "name": "Variegated Ghost",
+      "image": "public/images/variegated_ghost.jpg",
+      "sunlight": "Full sun to partial shade",
+      "id": 5
+    }
+  ]
+}
