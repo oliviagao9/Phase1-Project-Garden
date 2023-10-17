@@ -41,6 +41,7 @@ function addPlantFormSubmitListener() {
     plantForm.addEventListener("submit", (e) => {
         e.preventDefault();
         addNewPlant();
+        plantForm.reset();
     })
 }
 
