@@ -6,5 +6,7 @@ Welcome to Succulent Paradise, a web application where succulent enthusiasts can
 
 Succulent Paradise offers the following features:
 
-*Succulent Catalog: Users can add new succulents to the catalog, including the succulent's name, image, and the sunlight conditions it requires 
-*Browse Catalog: Users can browse and search for succulents added by them.
+*Succulent Catalog*: Users can add new succulents to the catalog, including the succulent's name, image, and the sunlight conditions it requires 
+
+
+*Browse Catalog*: Users can browse and search for succulents added by them.
