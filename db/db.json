@@ -10,8 +10,7 @@
       "id": 2,
       "name": "Moon Stone",
       "image": "public/images/moonstone.jpg",
-      "sunlight": "Partial sun to partial shade",
-      "id": 2
+      "sunlight": "Partial sun to partial shade"
     },
     {
       "name": "Sedum Donkey's Tail",
